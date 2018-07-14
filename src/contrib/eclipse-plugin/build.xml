@@ -153,8 +153,11 @@
  lib/netty-${netty.version}.jar,
  lib/woodstox-core-5.0.3.jar,
  lib/stax2-api-3.1.4.jar,
+ lib/commons-beanutils-1.9.3.jar,
+ lib/commons-lang3-3.4.jar,
 
- lib/htrace-core-${htrace.version}.jar"/>
+ lib/commons-configuration2-2.1.1.jar,
+ lib/htrace-core4-${htrace.version}.jar"/>
    </manifest>
       <fileset dir="${build.dir}" includes="classes/ lib/"/>
       <!--fileset dir="${build.dir}" includes="*.xml"/-->
