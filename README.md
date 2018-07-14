@@ -1,7 +1,7 @@
 hadoop2x-eclipse-plugin
 =======================
 
-eclipse plugin for hadoop 2.x.x
+eclipse plugin for hadoop 3.x.x
  
 
 How to build
@@ -11,7 +11,7 @@ How to build
 
  # Assume hadoop installation directory is /usr/share/hadoop
 
- [hdpusr@apclt eclipse-plugin]$ ant jar -Dversion=2.4.1 -Dhadoop.version=2.4.1 -Declipse.home=/opt/eclipse -Dhadoop.home=/usr/share/hadoop
+ [hdpusr@apclt eclipse-plugin]$ ant jar -Dversion=3.1.0 -Dhadoop.version=3.1.0 -Declipse.home=/opt/eclipse -Dhadoop.home=/usr/share/hadoop
 
 final jar will be generated at directory 
 
@@ -34,7 +34,7 @@ options required
 
   eclipse.home: path of eclipse home 
 
-  hadoop.home: path of hadoop 2.x home
+  hadoop.home: path of hadoop 3.x home
 
  
 
