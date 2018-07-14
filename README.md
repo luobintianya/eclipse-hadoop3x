@@ -1,4 +1,4 @@
-hadoop2x-eclipse-plugin
+hadoop3x-eclipse-plugin
 =======================
 
 eclipse plugin for hadoop 3.x.x
